@@ -2,96 +2,144 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Junjie Xia
+    - name: Email
+      value: jjxia@uchicago.edu
+    - name: Phone
+      value: +1 (872) 219-7194
+    - name: Location
+      value: Chicago, IL, USA
     - name: Languages
-      value: English, German
+      value: English, Mandarin Chinese
+    - name: Website
+      value: https://jjxia955.github.io
+    - name: GitHub
+      value: https://github.com/jjxia955
+    - name: LinkedIn
+      value: https://www.linkedin.com/in/junjiexia-uchicago/
+    - name: Google Scholar
+      value: https://scholar.google.com/citations?user=FWu4_iIAAAAJ&hl=en
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Ph.D. in Chemistry
+      institution: University of Chicago
+      year: "2021 - 2026 (expected)"
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - McCormick Fellowship recipient.
+        - Rising Stars in Measurement Sciences, Merck (2023).
+        - Olshansky Graduate Student Travel Award.
+    - title: B.S. in Polymer Materials & Engineering
+      institution: Zhejiang University, Hangzhou, China
+      year: "2017 - 2021"
       description:
-        - Description 1.
-        - Description 2.
+        - National Scholarships (Top 1% student, 2017–2019).
 
-- title: Experience
+- title: Research Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Graduate Researcher
+      institution: Institute for Genomics and Systems Biology, University of Chicago
+      year: "2022 - Present"
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Developed **Glycan Proximity Sequencing (GPS)** for integrated mRNA, protein, glycan, and glycoform profiling in single cells.
+        - Created **Spatial Proximity Sequencing (SProx)** for mapping protein interactions in tissues.
+        - Built computational pipelines (Python, R, Scanpy, Seurat, SLURM) for multi-omic analysis.
+        - Discovered CD8⁺ T cell subset (CD45: poly-LacNAChigh) as a glycosylation-regulated population.
+    - title: Graduate Researcher
+      institution: Department of Chemistry, University of Chicago
+      year: "2021 - 2022"
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - Modeled nanoparticle PK/ADME with Python.
+        - Performed survival analysis of tumor-bearing mice using Kaplan-Meier and log-rank testing.
+    - title: Undergraduate Researcher
+      institution: Department of Polymer Science and Engineering, Zhejiang University
+      year: "2019 - 2021"
       description:
+        - Conducted Monte Carlo simulations of polymer chain conformations and properties.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Professional Experience
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Venture Capital Analyst Intern
+      institution: Kaitai Capital, Biomedicine & Healthcare, Shanghai, China
+      year: "2021"
+      description:
+        - Evaluated cell therapies (CAR-T, TCR-T) and gene therapies for CNS disorders.
+        - Analyzed 15+ biotech companies and supported due diligence.
+        - Contributed to 3 pitch decks and 10+ memos for investment decisions.
+
+- title: Publications
+  type: time_table
+  contents:
+    - title: Computational prediction of protein interactions in single cells by proximity sequencing
+      institution: PLoS Comput Biol, 2024
+    - title: Proximity sequencing for the detection of mRNA, extracellular proteins and extracellular protein complexes in single cells
+      institution: Nat Protoc, 2024
+    - title: Two-Stage SN38 Release from a Core-Shell Nanoparticle Enhances Tumor Deposition and Antitumor Efficacy
+      institution: ACS Nano, 2022
+    - title: TLR3 agonist nanoscale coordination polymer synergizes with immune checkpoint blockade
+      institution: Biomaterials, 2022
+
+- title: Patents
+  type: time_table
+  contents:
+    - title: Integrated Multi-Omics Profiling
+      institution: Provisional Patent Application No. 63/880,541
+      year: "2025"
+
+- title: Conferences
+  type: time_table
+  contents:
+    - title: Integrated profiling of proteins, glycoforms and mRNA in single cells
+      institution: Merck-UChicago Lectureship (Poster)
+      year: "2025"
+    - title: Computational prediction of protein interactions in single cells by proximity sequencing
+      institution: Chicago BioEngineering Conference (Poster)
+      year: "2024"
+    - title: Spatial profiling of proteins, complexes and mRNA in human tonsil by proximity sequencing
+      institution: Merck Rising Stars in Measurement Sciences Symposium (Poster)
+      year: "2023"
+
+- title: Teaching
+  type: time_table
+  contents:
+    - title: Teaching Assistant - General Chemistry
+      institution: University of Chicago
+      year: "2021 - 2022"
+      description:
+        - Supported 50+ undergraduates in labs and discussion sections.
+        - Reinforced safety practices and scientific communication.
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: "2023"
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
+        - Rising Stars in Measurement Sciences (Merck)
+        - Olshansky Graduate Student Travel Award
+    - year: "2017 - 2019"
       items:
-        - Max Planck Medal
+        - National Scholarships (Zhejiang University)
 
-- title: Academic Interests
+- title: Skills
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Programming & Data Science
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Python, R, Bash, Git, HPC/SLURM
+        - Machine learning (Elastic Net, XGBoost, Random Forest, Bayesian models)
+    - title: Computational Biology
       items:
-        - Description 1.
-        - Description 2.
+        - scRNA-seq, spatial transcriptomics, proteomics, glycomics
+        - Tools: Scanpy, Seurat, Monocle3, Squidpy, DESeq2
+    - title: Experimental Biology
+      items:
+        - Antibody/lectin conjugation, flow cytometry, confocal microscopy
+        - PLA, NGS workflows, ELISA, IHC
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - "<u>Hobbies:</u> Basketball, snowboarding, poker, music, movies"
