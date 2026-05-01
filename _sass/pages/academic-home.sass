@@ -1,0 +1,149 @@
+.academic-home
+    margin-top: 110px
+
+    &__intro
+        display: flex
+        flex-direction: column
+        align-items: center
+        text-align: center
+        gap: 0
+        margin-bottom: 60px
+
+    &__eyebrow
+        margin: 22px 0 14px
+        font-size: 1.5rem
+        color: $gama
+
+    &__title
+        margin: 0 0 18px
+        font-size: 5.2rem
+        color: $beta
+
+    &__social
+        margin: 18px 0 0
+
+    &__summary
+        max-width: 760px
+
+        p
+            margin: 0
+            font-size: 1.85rem
+            line-height: 1.7
+            color: $gama
+
+    &__actions
+        margin: 22px 0 0
+        font-size: 1.65rem
+        color: $gama
+
+        a
+            color: $delta
+            text-decoration: none
+
+        span
+            margin: 0 8px
+
+    &__photo-wrap
+        display: flex
+        justify-content: center
+
+    &__photo
+        width: 180px
+        height: 180px
+        border-radius: 50%
+        object-fit: cover
+        object-position: center top
+        display: block
+
+    &__section
+        margin-top: 48px
+        padding-top: 28px
+        border-top: 1px solid $epsilon
+
+        h2
+            margin: 0 0 20px
+            font-size: 2.5rem
+
+    &__section-head
+        display: flex
+        justify-content: space-between
+        align-items: baseline
+        gap: 16px
+        margin-bottom: 20px
+
+        h2
+            margin: 0
+
+        a
+            color: $delta
+            text-decoration: none
+
+    &__news
+        list-style: none
+        margin: 0
+        padding: 0
+
+        li
+            margin-bottom: 12px
+            font-size: 1.7rem
+            line-height: 1.7
+
+        span
+            display: inline-block
+            min-width: 74px
+            margin-right: 12px
+            color: $gama
+
+    &__list
+        display: grid
+        grid-template-columns: 1fr 1fr
+        gap: 18px 26px
+
+    &__item
+        h3
+            margin: 0 0 8px
+            font-size: 1.95rem
+
+        h3 a
+            color: $beta
+            text-decoration: none
+
+        h3 a:hover
+            color: $delta
+
+        p
+            margin: 0
+            font-size: 1.6rem
+            line-height: 1.7
+
+    &__meta
+        margin-bottom: 6px !important
+        color: $gama
+
+@media #{$below}
+    .academic-home
+        margin-top: 90px
+
+        &__intro
+            gap: 0
+
+        &__photo-wrap
+            flex: initial
+
+        &__photo
+            width: 145px
+            height: 145px
+
+        &__title
+            font-size: 3.9rem
+
+        &__eyebrow
+            margin-top: 18px
+
+        &__summary p,
+        &__news li,
+        &__item p
+            font-size: 1.55rem
+
+        &__list
+            grid-template-columns: 1fr

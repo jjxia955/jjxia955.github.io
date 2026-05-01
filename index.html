@@ -1,0 +1,76 @@
+---
+layout: page
+title: Home
+---
+
+<section class="academic-home">
+  <div class="academic-home__intro">
+    <div class="academic-home__photo-wrap">
+      <img class="academic-home__photo" alt="{{ site.title }}" src="{% if site.external-image %}{{ site.picture }}{% else %}{{ site.picture | relative_url }}{% endif %}">
+    </div>
+    <p class="academic-home__eyebrow">Zhejiang University | University of Chicago</p>
+    <h1 class="academic-home__title">Junjie Xia (夏俊杰)</h1>
+    <div class="academic-home__summary">
+      <p>A Chemistry Ph.D. passioned about biotechnology and data-driven science.</p>
+    </div>
+    <div class="academic-home__social">
+      {% include social-links.html %}
+    </div>
+    <p class="academic-home__actions">
+      <a href="{{ '/about' | relative_url }}">About</a>
+      <span>&middot;</span>
+      <a href="{{ '/publications' | relative_url }}">Publications</a>
+      <span>&middot;</span>
+      <a href="{{ '/cv' | relative_url }}">CV</a>
+    </p>
+  </div>
+
+  <section class="academic-home__section">
+    <div class="academic-home__section-head">
+      <h2>News</h2>
+      <a href="{{ '/news' | relative_url }}">Archive</a>
+    </div>
+    <ul class="academic-home__news">
+      <li><span>Apr 2026</span> I'm thrilled to share that I've successfully defended my Ph.D. thesis "Proximity Sequencing for Multi-Omics Profiling of Protein Interactions and Post-Translational Modifications in Spatial and Single Cell Contexts"</li>
+      <li><span>Apr 2026</span> Published a new note on how I think about drug development through the pharmaceutical value chain.</li>
+      <li><span>2025</span> Filed a provisional patent application on integrated multi-omics profiling.</li>
+      <li><span>2025</span> Presented integrated profiling of proteins, glycoforms, and mRNA in single cells at the Merck-UChicago Lectureship.</li>
+    </ul>
+  </section>
+
+  <section class="academic-home__section">
+    <div class="academic-home__section-head">
+      <h2>Selected Posts</h2>
+      <a href="{{ '/blog' | relative_url }}">All posts</a>
+    </div>
+    <div class="academic-home__list">
+      {% assign featured_posts = site.posts | where: "featured", true %}
+      {% for post in featured_posts limit: 4 %}
+        {% if post.hidden != true and post.category == "blog" %}
+          <article class="academic-home__item">
+            <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+            <p class="academic-home__meta">{{ post.date | date: "%b %Y" }}</p>
+            <p>{{ post.description }}</p>
+          </article>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </section>
+
+  <section class="academic-home__section">
+    <div class="academic-home__section-head">
+      <h2>Selected Publications</h2>
+      <a href="{{ '/publications' | relative_url }}">Full list</a>
+    </div>
+    <div class="academic-home__list">
+      <article class="academic-home__item">
+        <h3>Computational prediction of protein interactions in single cells by proximity sequencing</h3>
+        <p class="academic-home__meta">PLoS Computational Biology, 2024</p>
+      </article>
+      <article class="academic-home__item">
+        <h3>Proximity sequencing for the detection of mRNA, extracellular proteins and extracellular protein complexes in single cells</h3>
+        <p class="academic-home__meta">Nature Protocols, 2024</p>
+      </article>
+    </div>
+  </section>
+</section>
