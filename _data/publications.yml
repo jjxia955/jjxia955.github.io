@@ -1,0 +1,71 @@
+- section: Prox-seq and Related Work
+  items:
+    - title: Spatial Proximity Sequencing Maps Developmental Dynamics in the Germinal Center
+      authors: Huili Wang, **Junjie Xia#**, Peer Mohamed Suhail Mujibur Rahman, Bijentimala Keisham, Abinash Padhi, Yiyu Deng, Yan Li, Luke Vistain, Sarah Kim, Gabriel Mercado-Vasquez, Aly A Khan, Marcus R Clark, Savaş Tay.
+      venue: bioRxiv
+      year: 2025
+      link_label: Paper
+      link_url: https://www.biorxiv.org/content/10.1101/2025.10.27.684659v1
+      homepage: true
+    - title: Computational prediction of protein interactions in single cells by proximity sequencing
+      authors: '**Junjie Xia**, Hoang Van Phan, Luke Vistain, Bijentimala Keisham, and Savaş Tay.'
+      venue: PLoS Computational Biology
+      year: 2024
+      details: 20, e1011915
+      link_label: Paper
+      link_url: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1011915
+      homepage: true
+    - title: Proximity sequencing for the detection of mRNA, extracellular proteins and extracellular protein complexes in single cells
+      authors: Luke Vistain, Bijentimala Keisham, **Junjie Xia**, Hoang Van Phan, and Savaş Tay.
+      venue: Nature Protocols
+      year: 2024
+      details: 19, 3568-3589
+      link_label: DOI
+      link_url: https://doi.org/10.1038/s41596-024-01030-x
+      homepage: true
+- section: Additional Publications
+  items:
+    - title: Two-Stage SN38 Release from a Core-Shell Nanoparticle Enhances Tumor Deposition and Antitumor Efficacy for Synergistic Combination with Immune Checkpoint Blockade
+      authors: Xiaomin Jiang, Morten Lee, **Junjie Xia**, Taokun Luo, Jianqiao Liu, Megan Rodriguez, and Wenbin Lin.
+      venue: ACS Nano
+      year: 2022
+      details: 16(12), 21417-21430
+      link_label: DOI
+      link_url: https://doi.org/10.1021/acsnano.2c09788
+      homepage: false
+    - title: TLR3 agonist nanoscale coordination polymer synergizes with immune checkpoint blockade for immunotherapy of cancer
+      authors: Yingying Li, Xiaomin Jiang, Taokun Luo, **Junjie Xia**, Morten J. Lee, Ralph R. Weichselbaum, and Wenbin Lin.
+      venue: Biomaterials
+      year: 2022
+      details: 290, 121831
+      link_label: DOI
+      link_url: https://doi.org/10.1016/j.biomaterials.2022.121831
+      homepage: false
+    - title: Pharmacological ascorbate potentiates combination nanomedicines and reduces cancer cell stemness to prevent post-surgery recurrence and systemic metastasis
+      authors: Xiaomin Jiang, Jianqiao Liu, Jianming Mao, Wenbo Han, Yingjie Fan, Taokun Luo, **Junjie Xia**, Morten J. Lee, and Wenbin Lin.
+      venue: Biomaterials
+      year: 2023
+      details: 295, 122037
+      link_label: DOI
+      link_url: https://doi.org/10.1016/j.biomaterials.2023.122037
+      homepage: false
+- section: Patents
+  items:
+    - title: Integrated Multi-Omics Profiling
+      authors: Provisional Patent Application No. 63/880,541
+      year: 2025
+      homepage: false
+- section: Conference Abstracts and Posters
+  items:
+    - title: Integrated profiling of proteins, glycoforms and mRNA in single cells
+      authors: Merck-UChicago Lectureship (Poster)
+      year: 2025
+      homepage: false
+    - title: Computational prediction of protein interactions in single cells by proximity sequencing
+      authors: Chicago BioEngineering Conference (Poster)
+      year: 2024
+      homepage: false
+    - title: Spatial profiling of proteins, complexes and mRNA in human tonsil by proximity sequencing
+      authors: Merck Rising Stars in Measurement Sciences Symposium (Poster)
+      year: 2023
+      homepage: false
