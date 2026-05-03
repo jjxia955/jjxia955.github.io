@@ -7,6 +7,7 @@ layout: page
 
 ### Apr 2026
 
+- I'm excited to share that our work "Spatial Proximity Sequencing Maps Developmental Dynamics in the Germinal Center" is accepted by Cell in principle! 
 - I'm thrilled to share that I've successfully defended my Ph.D. thesis "Proximity Sequencing for Multi-Omics Profiling of Protein Interactions and Post-Translational Modifications in Spatial and Single Cell Contexts".
 - Published a new note on how I think about drug development through the pharmaceutical value chain.
 
