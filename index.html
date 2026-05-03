@@ -31,10 +31,9 @@ title: Home
       <a href="{{ '/news' | relative_url }}">Archive</a>
     </div>
     <ul class="academic-home__news">
-      <li><span>Apr 2026</span> I'm thrilled to share that I've successfully defended my Ph.D. thesis "Proximity Sequencing for Multi-Omics Profiling of Protein Interactions and Post-Translational Modifications in Spatial and Single Cell Contexts"</li>
-      <li><span>Apr 2026</span> Published a new note on how I think about drug development through the pharmaceutical value chain.</li>
-      <li><span>2025</span> Filed a provisional patent application on integrated multi-omics profiling.</li>
-      <li><span>2025</span> Presented integrated profiling of proteins, glycoforms, and mRNA in single cells at the Merck-UChicago Lectureship.</li>
+      {% for item in site.data.news limit: 4 %}
+        <li><span>{{ item.date_label }}</span>{{ item.text | markdownify | remove: '<p>' | remove: '</p>' }}</li>
+      {% endfor %}
     </ul>
   </section>
 
@@ -63,14 +62,16 @@ title: Home
       <a href="{{ '/publications' | relative_url }}">Full list</a>
     </div>
     <div class="academic-home__list">
-      <article class="academic-home__item">
-        <h3>Computational prediction of protein interactions in single cells by proximity sequencing</h3>
-        <p class="academic-home__meta">PLoS Computational Biology, 2024</p>
-      </article>
-      <article class="academic-home__item">
-        <h3>Proximity sequencing for the detection of mRNA, extracellular proteins and extracellular protein complexes in single cells</h3>
-        <p class="academic-home__meta">Nature Protocols, 2024</p>
-      </article>
+      {% for section in site.data.publications %}
+        {% for item in section.items %}
+          {% if item.homepage %}
+            <article class="academic-home__item">
+              <h3>{{ item.title }}</h3>
+              <p class="academic-home__meta">{{ item.venue }}, {{ item.year }}</p>
+            </article>
+          {% endif %}
+        {% endfor %}
+      {% endfor %}
     </div>
   </section>
 </section>
